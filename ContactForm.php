@@ -99,7 +99,7 @@
         }
       ?>
       <form class="col" action="./ContactForm.php" method="post">
-        お名前名前<input class="form-control col-6" type="text" name="fullname" value="<?php echo $_SESSION['fullname']?>"><br>
+        お名前<input class="form-control col-6" type="text" name="fullname" value="<?php echo $_SESSION['fullname']?>"><br>
         Eメール<input class="form-control" type="email" name="email" value="<?php echo $_SESSION['email']?>"><br>
         お問合せ内容<br>
         <textarea class="form-control" name="message" cols="30" rows="10"><?php echo $_SESSION['message']?></textarea>
