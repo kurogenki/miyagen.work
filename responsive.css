@@ -1,0 +1,62 @@
+@media (max-width: 670px) {
+/* header */
+
+/* top */
+.slide-items  {
+  overflow: hidden;
+}
+
+.slide-items li {
+  height: 100%;
+}
+
+
+
+/* menu */
+.menu-content-item1 {
+display: block;
+
+}
+
+.menu-content-item1 img {
+  width: 100%;
+}
+/* news */
+
+
+/* shopinfo */
+.shopinfo-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.shopinfo-content {
+  width: 100%;
+}
+
+.item-about {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+footer {
+  flex-flow: column;
+  padding: 0px 20%;
+}
+
+.footer-logo img {
+  width: 50%;
+  margin: auto;
+}
+
+.message {
+  width: 50%;
+  margin: 0px auto;
+}
+}
